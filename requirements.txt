@@ -1,0 +1,5 @@
+tensorflow==2.3.0
+flloat==0.3.0
+pyeda==0.28.0
+timeout-decorator==0.4.1
+z3-solver==4.8.9.0

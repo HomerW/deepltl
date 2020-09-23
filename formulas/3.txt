@@ -1,0 +1,30 @@
+F!a
+G!b
+G!c
+F!c
+G!a
+FGb
+FGc
+a | b
+b R c
+GFc
+GFb
+GFa
+a R c
+c R a
+a & b
+F!b
+a U c
+a | c
+b U c
+FGa
+a & c
+b | c
+c U a
+c U b
+b & c
+a R b
+a U b
+b U a
+c R b
+b R a

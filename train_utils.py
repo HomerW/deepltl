@@ -1,7 +1,13 @@
 import tensorflow as tf
 from LTLOperator import LTLOperator
+import numpy as np
+from flloat.parser.ltlf import LTLfParser
+import random
+import math
+from copy import deepcopy
 
 batch_size = 100
+num_train = 500
 
 class Anneal(tf.keras.callbacks.Callback):
     """

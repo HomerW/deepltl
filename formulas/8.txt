@@ -1,1000 +1,675 @@
-!c | (c & F!c)
-(!a | !b) U !c
-F(b | c | G!c)
-!b & G(Ga U b)
-b R F(!a & !c)
-c & (G!b | Gb)
-a | !b | (b & c)
-c R F(b & F!b)
-(a & !b) | G!a
-F(!c & (Fa U b))
-a | !b | F!c
-a | (Fb & F!a)
-a | (!a & (a | c))
-c & F(!b & !c)
-(!b | c) & F!c
-(a | c) & (c R Fb)
-Ga | (!b & Fa)
-GF!b R F!a
-(GFa U a) R Fb
-(a & c) | (c R !a)
-G(!a | (a & !c))
-b U G(F!c U a)
-!a | !b | Gb
-(a & !b) | F!a
-F((b & !c) | Gc)
-!b | (!a & Fb)
-b & (F!a U !b)
-F(a | (Ga R !c))
-FG!a U G!b
-G!b | F(b & c)
-(a | !c) & F!a
-F(!b | (!a & b))
-Fb & (!c R !b)
-!c & (c | G!c)
-G!c | (a & Fc)
-c | (!b & F!a)
-(c U !b) R (c R a)
-!b & (b | G!b)
-a R F(b | G!b)
-!a & (c | G!b)
-G(!c | (!b & c))
-F(!a & F(a | b))
-b & Fc & F!a
-c & (F!c U !b)
-c & (GFa R !a)
-F(a | (!c & Fa))
-Gb | (!c & Fa)
-!b R (!b | !c)
-b | !c | GFb
-b U (a & (!a | c))
-(!a | !b) R !c
-c | G(!b & !c)
-Gc | (!b R !c)
-Fa & F(!b | c)
-!a & (!b | Fa)
-!b | G(b U !c)
-Fc U (!a & Fa)
-(!c & (b R a)) R a
-!c & (c | G!b)
-F(b | (!a & !b))
-Fc R F(c | Ga)
-F(a & (!a | Ga))
-(!a R !b) U !c
-(!a | G!c) R b
-!a & !c & Fc
-c | (!b R F!c)
-Fc R (Fa U Gb)
-FG(!a | F!c)
-!a | G(a & Fb)
-(c & G!a) U !c
-Fc & (!c | Fa)
-b R (b | (!a R c))
-Fa U (!b | Gc)
-F(a | b) U (b R c)
-G(c | (!a & !c))
-(!b & c) | F!c
-(c & F!b) U Gb
-Fc & (!b U !c)
-(!a & !b) R !c
-Fb | (b U (a R c))
-a | G(c | G!a)
-F(b & (b U (a R c)))
-F(!a | (a & !b))
-G(c & (!a | !c))
-(c & (b R !a)) U a
-b | (!a & F!c)
-(c & F!c) | Gc
-!c | (Gb U !a)
-G(!b & c & Fb)
-b | G!b | Gc
-F(b | (!c R !b))
-(b & G!a) U !b
-Fb & (a | G!b)
-F!c R (!a | b)
-Fa & G(a | Gc)
-!a & (a | F!c)
-c | G(!a | !c)
-F(F!b & (a R b))
-(a & FGc) R Fa
-Fa | (!a R !c)
-G(!a & (a | !c))
-FG(F!b U !c)
-G(Fc | (!c R b))
-F(!a & c & Fa)
-G(c | (!b & !c))
-G(b | (a & F!a))
-(a | Fc) R F!c
-a R F(!b & Fb)
-b | ((a R b) U Ga)
-Ga & (!b | Gb)
-F(!b & (a | Fc))
-Ga | (!c U !a)
-(!a | !c) U Gc
-Ga & (Gb | Fc)
-!a U (!c | Fb)
-(b | !c) & F!b
-!a U (!b & !c)
-c | G(a | G!a)
-GFb U (a | Fc)
-G(b | (!b & Fb))
-F(!a | GF!a)
-Gb R (!c | Gc)
-b | Gc | F!a
-G((b | c) & FGc)
-b | ((c U a) U Gc)
-F(!b | G(b & c))
-(c | Fa) R F!b
-G(a | (!a & !c))
-F!a R (a U !b)
-G(b & (!a U !b))
-(!a & !c) R Fc
-(c | (b U a)) R !b
-!c | (!a & !b)
-(a | G!a) R !c
-Fb | (!b U !a)
-!c | (c & F!b)
-a & (!b | F!a)
-((c R !b) R a) U b
-!a & (a | G!a)
-c R F(!c & Fc)
-G(c | G(a | !b))
-G(c | (!b R !c))
-b | (G!a R !b)
-b R (a | GF!c)
-!a | Gb | Ga
-!b | (F!a R c)
-F(Gb | (!b U a))
-F!a & (Gc U a)
-G(Gc | (a R Fb))
-G!c | GF!a
-F(!a & b & Gc)
-!b | (!b R !c)
-c & Gb & (b R a)
-(c U (b R a)) U !a
-b | !c | G!b
-a | (!b & F!a)
-G!a | FG!b
-G(a & (b | F!a))
-(!b | !c) & Fb
-!a U (F!b R c)
-F!a | (Fb U c)
-G(!a | (c U !b))
-F(G!b | G!a)
-(!a | c) & FGa
-F(c | (!b & !c))
-G!b | (c U Gb)
-F(a | (!c R !a))
-c & G(!c U !b)
-c & (F!a U !c)
-a | !c | (b & c)
-c | G(!a & !c)
-a | (!a & G!b)
-a | !c | FGb
-!b | G(b & !c)
-b | (G!b R !c)
-(!b U (b R c)) R b
-Fc & (a | G!c)
-!b & (!a | !c)
-!b | !c | Fa
-c | (!c & F!a)
-F(a | (!c R !b))
-(c & Fa) | F!c
-G(a U b) R (c U b)
-(b R a) | (b U !c)
-F(c | (!a & Fb))
-Fb R (!b & Ga)
-c U (G!a R !b)
-Fc | (Gc R Fb)
-c & (G!a U !c)
-!a | (a & F!a)
-c & F(!c | Gb)
-G(!b U (Gb R a))
-GF!a & (b U c)
-G(!b & (!a | b))
-F(!b & G(b | c))
-Ga | (Gc U !a)
-!a | (!a R Fb)
-(a | Gb) & (a R c)
-!a | (!a R !b)
-G(G!b | F!c)
-!a & !b & !c
-(c & Fa) R F!c
-(a & F!a) R Fc
-c | G(Ga U !c)
-b | (GFc R !b)
-FG(c | (c R !b))
-!c U (!a & !c)
-G(!b & F(a & c))
-a & Fc & F!a
-c & (!c | F!a)
-!b | (b & F!c)
-GFa & (a U !b)
-F(a | (c & F!a))
-FG(!b | F!c)
-(!b & G!c) U b
-Ga & (Fb U Gc)
-F(!a | (!b & c))
-c | Gb | G!c
-!c U (!a | Ga)
-!c U (FGb R a)
-Gc | F(!a | b)
-c U (!b | G!c)
-G(b | (!b & !c))
-b | (!b & FGa)
-!c & (a | G!a)
-Fb | G(a & !b)
-!b | (b & F!b)
-G(!c | (c R !b))
-G(!a | !b | c)
-!a & !c & Fa
-!b R (b R (a U c))
-F(c | (F!b R a))
-b | G!a | Ga
-Fb & (c | G!b)
-Fc & (Ga U !c)
-a & (G!c R !b)
-G!b | (b & Fa)
-Gc U G(!a | b)
-b | (Gc & F!a)
-a | (!c & (b U c))
-!c | F(!a | b)
-!c R (b | G!b)
-F(Gc | GF!a)
-G((a & !c) | Fc)
-F(!b R (a | Fb))
-!a | (F!b R c)
-(!a & !b) | Fb
-a & b & (!b | c)
-b R F(!a & Fb)
-b | (!b & F!a)
-!c | (c & F!a)
-!b U (!a | !c)
-Gc & (b | G!a)
-G(b | (!a & !b))
-!a | b | F!c
-a & !b & F!c
-G((a & Gc) U !a)
-(a R b) | (Fa U c)
-!a | (b R (a & c))
-F(!b R (a | !c))
-F(c | (!a & Fa))
-FG!c | (c U b)
-G(a & b & F!c)
-(Gb & Fc) R !a
-Gc | (!c U !b)
-!b | (!b U !c)
-a | G!a | Fc
-F(Fa R (c | Gb))
-a | Gc | GFb
-G(a | (!b & !c))
-G(!c U b) R Fc
-(!b & Fb) | Ga
-a & (!c | F!a)
-!a | (c & F!c)
-Fb & (a | GFa)
-c U (b | (!c R a))
-F(b | (!b & !c))
-(a | b) & (!b | c)
-(b & !c) | F!b
-a & (c | (!a & b))
-Fb | (!c R !a)
-((c R !a) U a) U c
-Ga & F(c & Gb)
-b | c | (!b U a)
-F(G!c & (a U b))
-b & Fa & F!c
-!b | (!a & Fa)
-(a | G!a) R Fa
-!a | c | GFb
-Fa | (c U G!b)
-c | F(!c R !a)
-!a | G(a & !b)
-(!a & Fa) R !c
-G!a | (a & Gb)
-G(!a | (a & !b))
-Fc | (!a & Fa)
-(!b & !c) | Gc
-(!b & !c) | Fc
-b | (!c & (a | c))
-G(F!c & F!a)
-G!a | (Fa U c)
-F(c | G!b) R b
-(!b & Fc) U !c
-G(Fc & FG!a)
-Fc | G(b & !c)
-(a U b) | (b U !c)
-F(!b | G(a & b))
-F(a | (!a & !c))
-G!c & (c | Fb)
-!b & (GFa U b)
-b & (Gc | F!a)
-!b U (!b & !c)
-F(G!a | G!c)
-FG!c & (b U a)
-b | (!c U G!a)
-G!a | (b U Ga)
-Gb | (b & G!c)
-G(a | (c & G!a))
-Ga R (!c & Fb)
-!b | (!c R !a)
-(G!c U a) U Gb
-F(a | (!b R !c))
-!b | c | G!a
-c & F!c & Ga
-Gb & (!c | Gc)
-!a U (!b | Gc)
-F(Ga | (b & Fa))
-F(!b | c) R Fa
-!a & (Ga R Fc)
-Fb | (!b & Fc)
-!b & (a U (a R c))
-F!c R (a & Gb)
-F(!a | (b & Ga))
-Ga & F(a & !c)
-(!a | !c) & Gc
-Fa R (Gc U !b)
-F(c | (!a & !c))
-a | b | (!a & c)
-!a | (!c & Fa)
-(a R b) U (b & Gc)
-GFa R (a & !c)
-Gc | (!b U !c)
-Ga | (!c & Gb)
-Fc | G(a & !c)
-FG(!c | (b & c))
-!b & (b | F!c)
-G(a | F(b | !c))
-Fa & (!c R !a)
-G((a | !b) & Fa)
-G(a & F(c R !a))
-c & ((b & Gc) R a)
-!a U (!a & !c)
-b | Fa | G!c
-F((c R b) & F!b)
-Ga | (!b R !a)
-(a | G!b) R !c
-G(a & (!c | Fb))
-!a U (Fb U !c)
-c | (!c & G!b)
-G(Gc | F(a & b))
-Ga U (!b & Ga)
-(!a & b) | F!b
-!a | !c | Gc
-Ga | (!b U !a)
-F!b | G(b U c)
-F(c & (!a | !c))
-G(c & F(!a & c))
-G(c & (!c R !b))
-!c | (F!b U a)
-!b & (!b R !c)
-G(b & (!b U !a))
-!a | !b | Gc
-a | !b | G!a
-((Gc R a) R c) R b
-(!b & Fb) | Gb
-!a | c | (a & b)
-a | (Fa & F!a)
-F!a & G(b U a)
-G(b | (!c R !b))
-c | (!c & F!b)
-(Fc & F!b) U b
-!b R (c | F!a)
-F(G!b | G!c)
-G(!c | (b & Ga))
-G(!b & (c R Fa))
-(!a | !b) & Fa
-F((a & !c) | Ga)
-FG(Fa | (a U c))
-F(b | c | (b U a))
-G((a & c) | F!a)
-(F!c R Fc) R a
-G(!a | (b U Gc))
-(Ga U !b) R Fa
-b | !c | (a R c)
-c & (F!a U Gb)
-G(!b | F(a | c))
-FG(a | Fb) U b
-G(c | (!a R !c))
-Gb & (!a | Ga)
-b | G(!a & !b)
-G(b | !c | Gc)
-!b & (b R F!c)
-!c & F(!b | c)
-FGa U (c | Gb)
-b & Ga & (a U c)
-F!b R (b & Fc)
-c | F(a & G!b)
-F!c | (b & Fa)
-!b & !c & Fa
-G(a & !c & Fc)
-c | Fa | G!c
-c | G(b | G!b)
-GFa R (Fb R c)
-F(!b & c & Ga)
-(c R a) U (!a U c)
-F(F(a R !c) R c)
-!c R (!a & !b)
-G(b | (!c U !a))
-F!b | (c & Gb)
-F(a | c | G!b)
-GF!c R F!b
-G(!b & (Fc U b))
-Fb & (!a R !b)
-!a R (c | G!c)
-c | (!a & F!c)
-!c R (!a | !b)
-F((!a & c) | Ga)
-G(!b & (b U !c))
-a | (!c & F!a)
-Gb R (!b R !a)
-(!b & !c) | Gb
-a & F(!a | !b)
-F!a & FG!c
-Gb & F(!a | c)
-G(a | Gb | Fc)
-F(Fc & (Ga R b))
-G(c & (!a | Gc))
-G!a | GF!b
-F(!b | (Gb U c))
-Fb & (b | G!b)
-F(b & (!c R !a))
-b & !c & (a | c)
-!a & (!c | Fa)
-(!b & c) | (c R a)
-Fa | (a U G!c)
-a & (Gb | F!a)
-F(!a | b | !c)
-!b R (!a & Fa)
-G(!a & (b | Fa))
-F(a & (b | GFc))
-a | (G!c R !a)
-c | G(!a | !b)
-((b | c) U a) R !c
-FGc R (a R Fb)
-G(c | (b & F!b))
-G!b | (Fa U b)
-G!a | (Gb U a)
-!b | (!a & !c)
-F(b | (!a & !c))
-G(!c & (!a R b))
-!a & c & (b U a)
-!c & (c | (c R b))
-b R ((a & b) U !c)
-F(!a | (b & Gc))
-G((!c & Fc) U b)
-Fb & (c | GFa)
-G(c | (!a & !b))
-c U G(!a | !c)
-F(Ga | GF!b)
-!a | !b | Fc
-(!a & c) | G!c
-G((a | Gb) U !b)
-Fa R (c | GFa)
-F!b & (b | Gc)
-(!a & !c) | Ga
-b | GF(b | Ga)
-F(!c & (b U Gc))
-Ga | (Gc R !a)
-Gc | (!b & Ga)
-G!a | (Fc R a)
-(b & Ga) R (c U b)
-b | (Fa & F!a)
-(!b & !c) | Fb
-Gb & Fa & Fc
-!b & G(a U !c)
-(c & F!c) R Fb
-F(!a & (!b | c))
-(!a & !b) | Ga
-!a & (!b | Fc)
-!c | (c & G!b)
-c | (F!c R !b)
-F((a | c) R b) U a
-!b | !c | Gc
-F(!b | (b & Fa))
-!b | (b & G!c)
-b | (!b & G!a)
-!c U (b & GFb)
-!b | c | G!c
-(G!a | Gc) U a
-Gb | (!b & Ga)
-Ga | (Fb R !b)
-FGb U (Ga U c)
-(b & c) | (Fc R a)
-G((Gb R !a) U b)
-G(a | F(!a & b))
-F(!a | (Fb R c))
-!b | (Fb R Fa)
-F(a & (Gc U !a))
-c U (G!b | Ga)
-G(!b | (!a & b))
-!b & (b | G!a)
-FG(G!c U !a)
-!c U (a & F!a)
-!a U (!b & Fa)
-G(!a & !b & c)
-Fb R (c | F!b)
-(!a & !c) | Gc
-G(Fc & (c | Gb))
-F(!a | c) U Gb
-a | F(!b | Ga)
-(!a & b) | G!c
-!a | c | F!b
-b | (F!c R !b)
-F!b & (a R Fb)
-!c R (b | (a R c))
-G(Gc | (Fc R a))
-!b & !c & Ga
-!a | (!b & Fc)
-(a & F!b) U Gb
-Gc | (a & F!a)
-G(!b & (b | !c))
-b | FG(!a | b)
-G(c & (!c U !a))
-Ga | (a & F!a)
-F(!c | GF!a)
-!b & F(a R !c)
-(!c R !a) R !b
-b | G(!b & !c)
-G!a | (b & Fa)
-G!a | (a & Fb)
-c U (!a & G!b)
-!b & (!b R !a)
-c | (G!b U !a)
-b | (!b & F!c)
-(!a | !b) & Fb
-b | G(b | G!b)
-GF(a | (Ga R c))
-F!b & (Fa R b)
-Fb & F(a | Gc)
-G(!c & F(a & b))
-!a & (!c R !b)
-G(b U c) U (a R b)
-(c | (c U b)) U Gb
-!a | (b & F!b)
-(Gc U !a) R Fb
-Fa | G(a | !c)
-F(G!a | (c U b))
-GF(a | GF!b)
-G((b & c) | F!b)
-(!b U !c) U !a
-G(G!c | (c U a))
-G!b & (a | Gb)
-a & (!a | (c U b))
-(a R b) U (!a & c)
-a | !c | G!b
-!a | (a & F!c)
-c & (a | b | !c)
-F(a & (!a | !c))
-Fa R (!a & !c)
-c | Fb | G!c
-G(!c & (!b | c))
-G((a & c) | G!c)
-Fc | (!b U !a)
-G!c & (!c R b)
-!c & (a | G!c)
-F(c | (!a & !b))
-G!a | F(a & c)
-a R (Fb & F!b)
-F!c & GF!a
-c | (!c R F!b)
-G(a | (!a & Fb))
-b | (a & (c U !b))
-(!b & c) | F!a
-(G!a R b) R !c
-F!c & (b | Fc)
-GF(!c | G!a)
-b | G(!b U !c)
-b & (G!a R !c)
-c | ((c U b) R !a)
-!c U (!b | Gb)
-Ga & ((b U a) U c)
-F(b R (!b U !c))
-(!a | Fc) U !b
-Fa | (c & G!a)
-G(c & (a | F!c))
-Ga | (c & F!a)
-(G!b R a) R !b
-FG(!b & (a | b))
-!a | !b | !c
-G!b R (a & !b)
-(b & c) | (!a & b)
-F(!a | !b | c)
-!b | (b & GFb)
-GF(b & c) R !b
-Gc | (G!b U a)
-F!c & FG!b
-!b U (c | G!a)
-F!c R (a U Gc)
-Fa | G(b & Fc)
-G!b | (c & Fb)
-F(!c | (!a & c))
-Fc | (G!a U b)
-G(c & (a | G!a))
-!a | (!c R !b)
-G!c & (b | Gc)
-F(!b | (!b R a))
-c U (b | (c & Ga))
-Fa | G(!b | c)
-!a & b & F!c
-G(c U (!c R !b))
-!c | (!c R !b)
-Gb | F(!a | c)
-G(!b | c | Gb)
-a & (Gb | G!c)
-G(!b U !c) U c
-G!b | (a & Fb)
-(FGc U b) R Fa
-!a | !b | Ga
-G!b & (c | Gb)
-F(b & (!a | !b))
-a & (!a | F!b)
-!b & F(c & Ga)
-Ga | (b & F!a)
-b | (!c & G!b)
-(b & !c) | G!b
-(!a | !c) & Fc
-G(!c | F(a R b))
-!a | (a & F!b)
-!b & (Fb R !a)
-F!c & (c R Fb)
-G(F!c & FGc)
-FGb | (Fc U a)
-FG(!a | (a & b))
-c | (G!c U !b)
-!c U (b U (c R a))
-!a | c | G!c
-G!b & (b R Fc)
-(!a & !c) | Fc
-(Fa R !a) R Fc
-G(b | (!b U !c))
-(b | c) R (a R !b)
-!b | (!c & Fb)
-(c R !b) | (c U a)
-(!a & G!c) U a
-a | (!b & G!c)
-b | G!a | Fc
-F(b R (!c R !a))
-Fa & (c | G!a)
-Ga R (a & b & c)
-F(!a | (a & !c))
-(a & F!a) U Gb
-a & (!a | (a & c))
-G(Gb U (c U !a))
-Fb & (!b U !a)
-b | (b U (Fc R a))
-G(!c | (!b R a))
-c & (F!b U !c)
-b | F(!a & !b)
-Gc | (!a R !c)
-a & F(!a | !c)
-!c U (!c R !b)
-G!b | FG!a
-Gc | G(Gc U a)
-(!a & !b) | Gb
-(a U !c) R F!c
-b R ((b & c) U !c)
-!a | (!c & Ga)
-Fc | (!c R Fb)
-(!b | c) U G!a
-G(c & (!b | !c))
-b | (F!a R !b)
-F(Fb & Gc) U b
-!a | FG(b & c)
-Fb & (!c R !a)
-!c & FG(b U c)
-(b & F!a) U Ga
-b & (F!b U Ga)
-F!b & (!c R a)
-F!b & G(a | b)
-b | !c | G!a
-(!b | !c) U Gc
-G(Fa & FG!c)
-F!c & FG!a
-F!b & (c | Gb)
-F(!b | (b & !c))
-F!a & (a | Gc)
-!a & (Gc R Fa)
-F(!c & FG!b)
-G(!a & F(a | c))
-(b | c) & (a | !b)
-G(b | G(!a | c))
-b | (Fc U G!b)
-Fc R (!c | Gb)
-Gc | (!a U !b)
-c & G(Gc U !b)
-G(b & (!b | !c))
-(c R b) U (c | Ga)
-c U (!c U (a & c))
-Fc | (!c R !a)
-a | !b | (a U c)
-(Fb R !b) U !a
-G(G!a | F!b)
-a | (G!c R !b)
-F(Gc & (!b U a))
-(b & F!b) R !a
-!a | Fb | Gc
-F(!b | (c U !a))
-F((!a & c) | Gc)
-F(!a | GF!b)
-b | G(!c | Gc)
-F(GF!b R !b)
-c | (!c & (a | c))
-F(a | (!a R !b))
-(!b | !c) & Fc
-!b & G(c U !b)
-a | c | (b R !a)
-F(b R !a) R !a
-G(!c & (c R Fb))
-Gc & (FGc U b)
-G(!b | (b & !c))
-G(a | (Fa R Fb))
-!a | (!b & Fa)
-!b U (c & G!a)
-a R (!c & (a | b))
-b & (!a U G!b)
-FG((!b R c) U b)
-(a & c) | FG!c
-Gc | (!c R !b)
-Fa & (F!a U c)
-a & G(!c U !b)
-!b R (!a | !b)
-c | F(!a | Gc)
-F(a | !b | !c)
-(a & Fb) | (a U c)
-FGb R (Ga U b)
-(!a | b) & FGa
-G(!c & FG!a)
-!c | G(!a U b)
-c | (!b & F!c)
-G(c U (a | G!b))
-(a & b) | (a R Fc)
-b | (!b & (a R c))
-a | G(!a & !b)
-b | (Fa & F!b)
-b R (!b R (a U b))
-F(c | (!c & Fa))
-b & ((c R a) R Fc)
-FG(!a | (a & c))
-F(a & (!a | Fb))
-c | ((c U a) R !a)
-Gc & F(!a | b)
-(!b & F!c) U b
-F(!a & b & !c)
-Ga & F(!a R c)
-!a | F(!a & b)
-Gc | (a & G!c)
-G(F!b & FGa)
-b R ((Gb R c) R a)
-FG((b | !c) U a)
-(!b U a) | (b U c)
-c U G(a & b & c)
-Fc & (!c R !a)
-F!c U (Ga R b)
-!a R F(!a | b)
-G((!a & !c) U a)
-F(b | (!b U !a))
-!a U (!b & Fb)
-(!b & c) | G!c
-!c | (!c U !b)
-!b | (!c U !a)
-b | (F!b R !c)
-a U (c | (a R !b))
-!c R (!c U !a)
-(!b & Fc) U !a
-a | !c | F!b
-G((!b & !c) U c)
-F(!b | c | Gb)
-Fa R (!c U Gc)
-(b | (a & c)) U !c
-(c R b) | GF!a
-!c U (b & F!b)
-(b R a) & (Fc U b)
-(Fc R Fb) U !a
-a & F(!a | Gc)
-(!a & Fa) U !c
-G(c & (Gc | Ga))
-Fb & (b | F!c)
-F!a U (!b | c)
-(!a U G!c) U c
-(!c & Fa) U !a
-!a | (!b & Gc)
-(!b & c) R F!b
-c R (a & GF!c)
-!c | (!b U !a)
-c & (!b | F!c)
-G(!a | (a & Gc))
-!a | (a & G!b)
-G(Gc U (a & Fb))
-F((!b U !c) R a)
-Fb | (!b & Ga)
-!b | (G!a R b)
-c & Fb & FGc
-Fc & (a | G!a)
-Fc | (!a U !b)
-F(!c | G(a & c))
-(!c R !b) R !a
+b | G!b | (a U c)
+(c U b) | (Fc U a)
+c | (!b & !c) | Fa
 (b U c) & (Fc R b)
-(a R Fb) U (b U c)
-a & (F(a | c) U b)
-Fb | (a & F!b)
-!b | (!a R !c)
-G(b | G(Gc U b))
-c & (F!b R Fb)
-Fa | (!c U !b)
-Ga | (!a & Fa)
-!c | F(b R !a)
-!c U (!a & Fa)
-c U (!c U G!a)
-a | b | GF!a
-!a | b | G!b
-a | (Fb & F!b)
-F(c & F!b) R b
-Fb & G(!b | c)
-G!a | (a R !c)
-FG(!b | (b & c))
-F(G!c R (b R a))
-Gc R (!a | Ga)
-F!b | (c R Fa)
-G!b | G(b | c)
-GFb U (a & Fb)
-Fb U (a & G!c)
-(!a & !b) | Fa
-G((a & c) | F!c)
-b & (Ga | GFb)
-G!b U (b U !a)
-!a & (Fc | Ga)
-Gc & (Fc R !b)
-c | (b & FG!a)
-b | (G!b U !c)
-Fb R (c U G!a)
-!b | F(!a | c)
-Gc & (!c R !b)
-c | (!c R F!a)
-a & !c & G!b
-F(a & !b & !c)
-F(a | (FGb R c))
-a | F(c | G!b)
-F(a | (!a & !b))
-a U (G!c | Gc)
-F(!c | G(c U b))
-F(Fb & (a R !b))
-F(!b & (c U Gb))
-c & G(b | G!b)
-F((a U Gc) R !b)
-F(a & (a R (b U c)))
-F(G!b & F!c)
-Fa & (GFb U c)
-G(c | G!c) U a
-b | (!b & G!c)
-F(G!a & (b R c))
-(FGb R !b) U b
-F(!a & G(a | c))
-FGc | (a U !c)
-c | (Fb & (c U a))
-F(b | (a & F!b))
-c & (a | b) & Fb
-b | G!b | Fc
-Ga R (!b | !c)
-F(!b & Fc) U a
-F(G!a & F!c)
-b | (a & (!a | c))
-a | G(!a & !c)
-b | ((b R !c) U a)
-(a & c) | FG!a
-(a U c) U (c & Gb)
-F!b | (b & Fa)
-F(c & G(!b | c))
-(a & F!b) U !b
-G(F!c & F!b)
-!b | (Fb & Ga)
-F(a & Gc) U Ga
-b & (!a | F!b)
-a & (!b | (b & c))
-G(F!a & FGc)
-(!b & Fa) U Ga
-(!a | c) R F!c
-G(!c & (Gb R a))
-FGa R (c & Gb)
-c & F(!c & Fc)
-Gb | F(!b & c)
-Fc R (!b & Fb)
-a U (c & (b | !c))
-F(!c & (b | Fa))
-Ga | (Fa U !b)
-b | G!c | Gc
+a U (!b & (b | G!b))
+b | (!a & !b) | Gc
+G!c | (c & GFa)
+(c U a) | (c & Gb)
+(!a & !b) | (a & Gc)
+Gb | (Fa & G!b)
+F(a & c) | FGc
+c R F(Fb & Gc)
+Gc R ((!a & !b) U b)
+FG!c & F(!a | c)
+G(a & b) & GF!c
+c R ((!b | Gb) U c)
+Ga | F(a & F!a)
+(a & c) | (!b & F!c)
+F(!a | ((!a & !c) U c))
+!b & Gc & GFa
+a | c | (!b & G!a)
+b R (c | (a & F!a))
+G!b | F(b & Gc)
+!c | (Gc & GFa)
+Fa | FG(b & c)
+b | G!a | (b R a)
+!a | (a & b) | Fc
+G(Fc U (b | G!a))
+F(a | (Fb & F!c))
+((!a & !c) | G!c) U c
+F((!c | Gc) & F!c)
+F(a R c) | FG!a
+F((a & !c) | (!a & c))
+(!b | Gb) R (b | !c)
+((Gb R c) U a) R b
+G(c & (G!b | F!c))
+F((b & c) | (!a & !b))
+G(a & c) & GFb
+b & ((!a & b) | F!b)
+(Fb | FG!a) R c
+a | b | (!a & Fc)
+(a | !c) R (!b | Fa)
+F(a & !b) | FGb
 b | ((a R c) R Fb)
-a | (G!b U Ga)
-Ga | (!a & Fc)
-c | G(c | F!b)
-(c R b) U (Fc U a)
-a | (!c & G!a)
-G(c | (b & (a U c)))
-(G!a | Ga) U c
+c & (a | G(!b | !c))
+F((!a & c) | (!a & b))
 Gb R (b & (a U c))
-!c | (c R (a | b))
-(!c U a) | (c U a)
-(Fc & Ga) U !c
-(!b | F!c) R a
-(a & G!b) U !a
-!b | G(!a & b)
-b & G(Fa & Fc)
-Gc R (Fb R !b)
-b | (!a & F!b)
-(Fc R !b) U Ga
-F(a & (Gb | Gc))
-Fa | G(b | !c)
-!b | Gb | Gc
-!b & (!a R !c)
-(Gc U Ga) U !b
-!b & (Fb U !c)
-G((a & !c) | Ga)
-!c | F(b & Ga)
-(!a | !b) & Gc
-Ga | (!c U !b)
-b & (!b | G!a)
-Fa & (!b U !a)
-!a | G(a & !c)
-F(G!a | GFb)
-Fa | (!a & Gb)
-a & (!a | G!b)
-G!a | (Fc U b)
-F(b R (!a U Ga))
-a & (Fb | (b R a))
-Fa U (!a & !c)
-!b | (b & G!a)
-(a & c) R F(b R a)
-F!b & (b | Fa)
-G(!c | Gc) R a
-(a & !c) | G!a
-(!a | Ga) R !c
-F(!a | (c U !b))
-F!c R (!c U b)
-G(b | (Gb R Fa))
-GFa & F(c R a)
-Gc & (b R (a | b))
-!b & F(a & Fc)
-F(a | !b | Gc)
-(a & !c) U G!b
-G(!b & (c | Fb))
-a | ((Ga U c) U b)
-GFc R (c R Fb)
-F(!b | GF!a)
-c | Ga | GFb
-Fc & (!c | Gc)
-G(a | !c | Gc)
-G(c | (a & F!c))
-G!a & (!a U b)
-F(G!b | (c R a))
-F(!a | !b) R b
-c | (a & b) | Ga
-F(b | (!a R !c))
-!c & (b | G!b)
-!c | (!a & Fc)
-F(c | G(a & !c))
-Fa | (c & F!c)
-c & (!c | FGa)
-c U (!b | GFc)
-GF(F!b R !c)
-!c | (!b U Gc)
-a U (Gb | F!c)
-(c R Fb) R (a & b)
-(!a & c) R F!b
+Fb U (!c & (a U c))
+Fa & (GFb U c)
+G((a & !b) | (a & c))
+G(a | G!c | G!a)
+G(!a | !b) & GFb
+b | (!b & !c) | G!b
+F((a & !b) | (!b & c))
+G((a & !c) | (!a & c))
+F(b | !c) | FG!a
+!c | Ga | (!c R !a)
+F(!a & b) | FGa
+!a | ((c R Fa) R a)
+G((b & c) | (!b & !c))
+!a | !c | (c & Ga)
+G(!a | !c) & GFc
+(!b & Fa) | (!b U !a)
+F(b & c) | FGb
+F(!b & !c) | FGc
+(b & c) | (b & F!b)
+Ga U (Gb | Gc)
+!c | Gc | FGa
+Fc R (Fa U Gb)
+!a | c | (!c & Fc)
+G(a | !b) & GFa
+(b & c) | (Fc R a)
+b | !c | (!b & Ga)
+G(Fb & Fc) R b
+F(a & (b | GFc))
+(c R b) | G(!a & !c)
+a U (c | (a & F!a))
+(a U b) R (!a | Ga)
+c | (Fc R (c U a))
+G(c U !b) & GFa
+Fc & G(b | F!a)
+b & (F!b | FG!a)
+(!b | c) & (b | Ga)
+c & (a | b) & Fb
+Gc | F(a & F!c)
+(a & b) | (G!b U !a)
+(a | b) & (c | F!b)
+(b & Ga) R (c U b)
+(b | !c) & (Ga U c)
+!a | (a & b) | G!c
+G(!a | b) & GFa
+!c & (Fc | FG!b)
+F(c R ((a R c) U b))
+Gb & Fa & Fc
+Gb & GF(!a | !b)
+F!c | (!a & (a R c))
+G((a & b) | (!a & !b))
+F(!a & c) | FGc
+b & (F!c | FG!b)
+F(a & (G!b | F!a))
+a & b & (c | G!c)
+F(c R b) R (a | c)
+(F!b | FGa) U !a
+Fb | (b U (a R c))
+GFa | (!b & F!a)
+(c | G!c) & (a U b)
+(!b | G(a | b)) U c
+F(a & Gc) R Fa
+c & (F!a | FGc)
+!b & (b R (Fc U b))
+(a | Gb) & (a R c)
+!b | (b & (b U Ga))
+G!c & GF(a & b)
+c | FGc | F!a
+c | (!b & (b | G!b))
+!c | (c & (!c | Ga))
+(a | !c) & F(a | b)
+F(a & !c) | FG!a
+!a | (Gc & (b R a))
+F(a & !c) | FGa
+F(Fa R (!b | Gc))
+G((b & c) | (a & b))
+(a & Fc) | (!b R !a)
+(Gb R a) | (!b U !a)
+FGc & (Fa R b)
+a U (!c | (a & Fb))
+a | F!c | FGb
+F((a & b) | (b & !c))
+b | (!b & !c) | G!a
+G(b | ((a | !b) R c))
+(!b & F!a) | (a R b)
+!b | (Fc & (!a U !c))
+(!a U !b) | (Fa U c)
 (Fc & (c U b)) U a
-c | (G!a R !b)
-G(F!b & (c U b))
+c & Fb & FGc
+b | G!c | FGb
+a & (F!b U (!a | !b))
+((a & b) R Fb) R a
+G(F!a | G(a & c))
+c | (!b R (!a & Fc))
+G((a & !b) | (!a & b))
+F((a & !b) | (a & c))
+Fb | (F!c & Ga)
+FGb R (c & F!c)
+!a | (Ga & GFb)
+(a U (!b | Gc)) U c
+(c R b) & (c | F!b)
+(Gb & (a R c)) U a
+!c | (G!a & GF!b)
+a & (FGc | F!a)
+Ga & (Fb U Gc)
+Fc & G(a | G!c)
+Ga | (Fc & F!a)
+G(Gc U (a & Fb))
+F((!a & b) | (!a & !c))
+F(b | c) | FG!a
+Ga R (a & b & c)
+F(!b | (a R (b & c)))
+GFb R (b & F!b)
+FGa | (c & F!b)
+((!a | b) U c) U Gc
+b | (a & (!a U G!b))
+Gb & (FGa R c)
+Fa & FG(a | !c)
+F((!a & c) | (b & c))
+F(Fa R (c | Gb))
+c | (a & !c & G!b)
+Gc & (b R (a | b))
+Fc & (Gc | Gb)
+F(Fc & (G!b U !c))
+G(b | c) & GF!b
+!c | (b & c & G!a)
+Fb & (a | GFa)
+GFc R (c R Fb)
+FGb R (Ga U b)
+G(Gc | F(a & b))
+GF(a | (Ga R c))
+c U (a & G(b U a))
+Fc U G(a | G!a)
+Fc | FG(b | c)
+c | (Fa & FG!a)
+c | (!a & !b) | Ga
+(!c R !a) | (Gb U a)
+G(!a & c) | (a R b)
+!c | Fa | GFc
+G((a & c) | (!a & !c))
+(b & Fc) R (b | !c)
+G(b | (G!b & Fa))
+F!b | (a U (b & c))
+a | G(b U (a & b))
+c | (b & !c) | G!c
+a | Gc | GFb
+G((a & c) | (!b & c))
+F(b & (G!c | F!b))
+!b & (Fc | FG!a)
+G(a & (b | (!a R !b)))
+a | (Fa & (!c U !a))
+(c & GFc) R Fa
+Fc & (G!b | G!c)
+F(a R b) | FG!c
+Ga & ((b U a) U c)
+a & (Fb | FG!a)
+Gb & GF(!a | !c)
+F(c R a) | FG!b
+(F!c | FGb) U b
+G(!a | c) & GFb
+Fb | G(b | G!c)
+G(b | G(Gc U b))
+!c | Gc | (!b R !a)
+a U ((a & c) | G!c)
+FGc & G(b | c)
+GFa U (a | G!b)
+G(c | (b & (a U c)))
+(b | G!b) & FGb
+(b | !c) R (Fa U c)
+c | ((b | G!c) U a)
+!b | ((b & Ga) R c)
+(a | !b) R (Fc U a)
+F((a & c) | (b & c))
+Fa | G(G!a U !c)
+c | (F!c & FGb)
+!b | (b & F(!b | !c))
+F!b & (Fc U Gb)
+(a | G!a) R (b U c)
+Gc | (!c & (a R b))
+Ga & (Gb | Fc)
+F!b | FG(!c U !a)
+F(a & b) | FG!a
+(a | G!c) U (b U c)
+G(b U c) U (a R b)
+b | F!a | FGc
+Fc & (b | (!b R !a))
+Gb | (Fa & Fb)
+(!a | (c R a)) U Gc
+GF!b | (Fc U b)
+(a | b) & (!b | G!a)
+G((a & b) | (b & !c))
+G((!a & c) | (b & c))
+G((!a & b) | (b & c))
+GF!a | (Fc R b)
+a | (!a & F(!a R !b))
+(a | !c) & F(!a | b)
+(!a & !c) | G(b & c)
+F(Ga & (!b | F!a))
+Gb | Fa | G!c
+F(a | !b) | FGc
+F(Fa & (c | G!a))
+b & F(G!b | Gb)
+G(!b | Gb | Gc)
+F(b | c | (b U a))
+(c | Fa) U (a | !b)
+!b | (b & !c) | Gc
+((b | G!a) U a) U b
+Fc | (GFb U a)
+(Fa | FGc) R b
+c U G(a & b & c)
+(!c | Gc) R (a & b)
+a & Gb & GFa
+a | ((Ga U c) U b)
+F(!b | c) | FGa
+a | (F!c & (!c U !a))
+G(a | b) & GFb
+Gb & (c U (a & c))
+FGc | (b & F!c)
+a R (b R (a | Gb))
+F((a & b) R (a | b))
+Gc | (F!a R F!b)
+!c | Fa | FGb
+Ga | (F!b U G!a)
+F(b & c) | FGc
+FGb | (Fc U a)
+G(Gc | (Fc R a))
+F(a & (a R (b U c)))
+Gc | (!b U (!a R !c))
+F(G!c & F(!a | c))
+G((b & !c) | (!b & c))
+Fc | FG(!a U !b)
+b R ((b & F!b) U a)
+G(b | F!a) R Fc
+Fa & (!b | (b R c))
+G!a | G!c | Ga
+a & (Fc | FGa)
+G!a & GF(a | c)
+c | (Fb & (c U a))
+!b | (!a & b) | Gc
+(a U b) & F(b R c)
+G(c & (Gc | Ga))
+Fc R (b | (!a & !c))
+Gc | (!c & (!c U !a))
 G(Fa & F(b R c))
-a | (!a & F!c)
-G(b | (!a & !c))
-c | F(!b & Fb)
-G(a | (!b R !a))
-GF!a | (c U b)
-G!b | G(b & c)
-G!b | GF!a
+c | (Fc & FG!c)
+((b | c) & F!c) U c
+(a & F!b) U (b | c)
+F!c | FG(a & c)
+!a | (a & c) | Ga
+(Fc | (!c U !b)) R a
+c | G!a | (c U b)
+c | (G!b & GF!c)
+(a & FGc) R Fa
+!a | !c | (c & Gb)
+Fc & (a U (a & b))
+a | !b | !c | Gc
+Fa & (G!b | Gb)
+c R ((a | G!c) R b)
+a | Fb | FGc
+Fb | FG(c U a)
+((Gc R a) R c) R b
+(b | !c) & G(a & c)
+Gc & (FGc U b)
+FG!b | (Gc R b)
+G(b U c) & GFb
+F(!a | (b & (a R c)))
+!c | (Fc & FGa)
+c | Ga | GFb
+b | (Ga R (a & c))
+Gc R (b | GF!a)
+c | (b & !c) | Ga
+G(!b | !c) & GFb
+c & ((!c | Gc) U b)
+G!b | (a & GFa)
+a U (!b | G(b & c))
 (b R c) | (Gc R a)
-!c R (b | G!a)
-!c | (!b & Gc)
-Fc & (!c | Ga)
-c | (!c & G!a)
-!c & (c | G!a)
-Gc U (a U G!b)
+c & F!c & GFc
+c | G!b | FGb
+(b R a) & (Fc U b)
+c & ((b | c) R Fa)
+!b | (Gb & GFc)
+F(Fc R (c | G!a))
+(a & b) | (!c & Gb)
+c R (b | !c | G!b)
+b | F!c | FGb
+(a & c) R F(b R a)
+b | (G!c & (!c U !b))
+GF(b | (!b R F!c))
+G(GFb U (b | c))
+b & (Ga | GFb)
+!b | (F(a R b) R b)
+b | ((!b & Fb) U c)
+!a | Gb | (a R c)
+b & (a | G(!a & c))
+b | (Gb R (a | !c))
+!b | F(Gb | Gc)
+F((a | c) R b) U a
+!c & (Fc | FG!a)
+!a & (Fa | FG!c)
+!b | (!a & !c) | Fc
+b | ((c U a) U Gc)
+c & ((a & c) R Fa)
+(a & b) U (c | Gb)
+F(!a & !b) | FGb
+a | !b | G(b | !c)
+GFc | (G!a R !c)
+G!b | G!a | Ga
+b & (!b | (!a & Gb))
+(c R b) U (Fc U a)
+Fa R (c | GFa)
+G!a | (Fb & Ga)
+a & (Fb | (b R a))
+G(!b | c) & GFa
+F(!a | b) | FG!c
+(!c | Fa) U (b & c)
+c | (Ga & GFc)
+Fa | (!a & FGc)
+!b & (Fb | FGc)
+c | ((!a | !c) & Fa)
+Fb & (F!a | Gb)
+G(!b | (b & (!a U !b)))
+(a U c) U (!b & Fb)
+a | b | !c | Gc
+(!a & !c) | F(b | c)
+!a R (F!a | FGb)
+Fa | (a R (a U b))
+!a | (a & c & F!c)
+c | (a & !c & F!a)
+c & ((b | G!c) U a)
+!c | (!b & c) | Gb
+a | b | G(!b | !c)
+F(a | b) U (b R c)
+(!c | Ga) U (c U b)
+G(!a | c | (!b R !c))
+a | c | (!a & G!b)
+c | (F(!b R !a) U !a)
+F((a & !c) | (a & b))
+b & G(Fa & Fc)
+b & (Fb R (a | !c))
+(!b & !c) | (c & Fb)
+(FGc U b) R Fa
+F(Ga | G!b) U a
+Fc & G(!b | Ga)
+(!a | Ga) U (b U c)
+c & ((a & !c) | F!a)
+F((b & c) | (!b & !c))
+GFb U (a & Fb)
+!a & (Fa | (a U c))
+Gb & GF(b & c)
+a | Fc | FGb
+(!a | b | !c) & Fc
+((a & !b) | F!a) R a
+(a R Fb) U (b U c)
+G(F!a | (a & G!b))
+!b | G!c | (b U c)
+b R ((Gb R c) R a)
+(b | c) & F(!a | !c)
+G((a & !c) | (a & b))
+(a R b) | (Fa U c)
+G(!a | ((!a | b) R c))
+(!b & c) | (b & F!c)
+a | (c & G(b | !c))
+Gc & (b | (!b U !c))
+a | b | !c | G!b
+(b & Fc) U (a | c)
+(!b | Gb) R (!a | b)
+(c | G(!b U !c)) U a
+!b | Gb | FG!b
+G((a & !c) | (b & !c))
+!c & ((!c & G!a) U c)
+(c U b) R F(b | c)
+Fb & (c | GFa)
+a & (F(a | c) U b)
+F(Fc & (Ga R b))
+G!b | (G!a & Fb)
+Fc | ((!b | c) U a)
+F(a | (FGb R c))
+!a | c | (!b & Fa)
+G(a | c) & GFa
+!a | b | (!b & F!c)
+a | F!b | FGa
+(c & F!c) R (a R b)
+(GFa U a) R Fb
+c & Gb & GFa
+F!c & G(c | Fa)
+Gc | (!c & FG!b)
+G((a & c) | (!b R !a))
+G((a & c) | (b & c))
+G(Gc | (a R Fb))
+F(a & b) | FGa
+(b U c) R (a & Fc)
+c | (b & (!b | G!c))
+(a | F(!b R !a)) U c
+(!a & !c) | (Gb R c)
+Gc & F(!b & Fb)
+a | (Gc & GFb)
+(a U c) U (c & Gb)
+Ga R F(c & F!c)
+F!a & (Fa | Gc)
+a & (Fc R (!a | b))
+F((a & b) | (!a & !b))
+(!a & !b) U (Ga U b)
+Fa & G(a | Gc)
+a | (F!b & (a R b))
+c | (a & b) | F!b
+FGc R (a R Fb)
+F(a | c) | FG!b
+F((a & c) | (!a & !c))
+FGb | (a & F!a)
+b | Fa | FGb
+G(c | (!b & FGb))
+b R (Fa R (a | !c))
+F((!a & !c) | (a & b))
+b | (Fb U (c U a))
+G(!c | Fb) R Fa
+(b | c) & (a | F!c)
+F((!a & c) | (!a & !b))
+(!b | (a & c)) & Fa
+F(!c & Fc) U Gc
+b & (!b | (!a & Fa))
+(!b | Gb) & GFc
+(a & Fb) | (a R b)
+b | F!a | (!a U !c)
+a & (Fb | FG!c)
+Ga & (c | (!b R !a))
+(Fb | FGa) R a
+(a | b) R (b | G!b)
+F(a & (Gb | Gc))
+(a & b) | (!a & F!c)
+F(c R a) | FGb
+(!a & c) | (a & Gc)
+(!b & Fb) | (a U c)
+F(!c R !a) | FGa
+Gb | FG(!c U !a)
+a | (c & (!a | F!c))
+G!b | G(!c | Gb)
+!b | (b & G(!b | !c))
+G((!a & !c) | (b & !c))
+a | ((!a | !b) & Fc)
+a | ((!b | c) U Gc)
+G(a | (Fa R Fb))
+F((a & c) | (a & b))
+F(c R b) | FGa
+GFa & F(c R a)
+F(!b | c) | FG!a
+a | (F!a & (c U a))
+b R (Fa | (!a R !b))
+G(b | G!c | F!a)
+!b | F!a | FGc
+Fb U (b | (!b R !c))
+F(!a | (!c & (b R a)))
+a | (!a & c) | Fb
+a | G(Gb | F!a)
+b & (!a | !c | Ga)
+F(!a & !c) | FGb
+GFa R (Fb R c)
+F!b | FG(b U a)
+(a & Fb) | (a U c)
+b & (!b | (b & Fa))
+c | Fb | FGa
+F((a & c) | (!b & c))
+FGb U (Ga U c)
+G(!a | b) & GF!b
+c & Gb & (b R a)
+b | (a & c) | G!b
+G((a & !b) | (!b & c))
+G!b | F(!b & Fb)
+c | (a & b) | Ga
+a | (!b & (F!b R !c))
+G(Fa & F(b | c))
+b | !c | (Ga R c)
+c U (b | (c & Ga))
+F(!b | !c) | FG!a
+F((!a & b) | (b & !c))
+((!a & !c) | Fb) U a
+a | Fc | FG!b
+F((!a & b) | (b & c))
+b R (b | !c | Ga)
+G(a U b) & GFc
+F(!a & c) | FGa
+F(b & (b U (a R c)))
+a | !b | (b & Fc)
+F(F!c & (b | Gc))
+F((b & !c) | (!b & c))
+Gc & GF(!a | !c)
+(a U c) R (!b | Gb)
+a & (F!a | GF!c)
+F!b | FG(b & c)
+c & (!b | (c & Ga))
+(a R b) U (b & Gc)
+F((!a & !c) | (b & !c))
+!c | (Gc & GF!b)
+Gb | (!b & FGc)
+(!c U !b) & (Fc R b)
+F(F!c & (c | Gb))
+G(a | c) & GFb
+Ga & F(c & Gb)
+a | ((!b | !c) U G!b)
+G!c | (Gb U Gc)
+(!b | c | G!c) U a
+a | (Gb & GFc)
+Gc | G(Gc U a)
+F(b R c) | FG!b
+G(!a U !b) & GFb
+G(G!b | F(a & b))
+Fc | FG(a & !c)
+b | (a & c & F!a)
+(!c & Fc) | (b R c)
+!b | (b & F(!a | !b))
+G((a & c) | (a & b))
+b U (Ga | (!c U !a))
+!a & Gc & (c U a)
+G!a | ((a | !b) R b)
+a | (!a & b & G!c)
+Ga | (!a & FG!b)
+c & ((b & Gc) R a)
+F(a & Gc) U Ga
+F(c R b) | FG!a
+b | ((a R b) U Ga)
+a & (G!b | (!c U !a))
+!b & ((!a & !b) | Fb)
+!c | (b & (Gb R c))
+(c U b) | (a & F!b)
+a | (Fa R (a U c))
+b | F(b & (c U a))
+a | G!a | (c R b)
+F!c | FG(c U b)
+(F!c | FG!b) U b
+Gc | (Fc & F!c)
+b & ((c | G!c) U a)
+(a | !b) & (b | Ga)
+G((!a & b) | (b & !c))
+Ga & (c R (b | !c))
+a | c | (!a U G!c)
+G!b & GF(a & c)
+c & (b | (c & F!c))
+a | !c | G(b | !c)
+b | (!c & (c | Ga))
+c | F!a | (!c R !b)
+a | !c | (c & G!b)
+(a & b) | (a R Fc)
+G(Fb U (!c | Gc))
+Fc & G(a | F!c)
+FGa U (c | Gb)
+F(a & b) | FGc
+c | G!a | GFa
+!c | (Fa R (!b | c))
+F(!a | !c) | FGb
+b | G(GF!b U !c)
+F(a R b) | FGc
+!b | ((!b | c) R Fc)
+c & (F!c | (!a R !b))
+Fa | (F!b & F!a)
+b R (F!a | FG!b)
+Fa & (G!a | Ga)
+b R (a U (c | G!c))
+a & (c | (!c & F!b))
+G(a | b) & GFa
+Ga & GF(!a | c)
+G(a | Gb | Fc)
+(a | c) & (!c | F!b)
+GF!b | (a & Gb)
+(!b | Gb) & GFb
+FG((!a | Ga) U b)
+G(a U b) R (c U b)
+G!b | G!a | Fc
+Gc | (a & FGc)
+(!b | c) U (Fc U a)
+G!b | Fc | Ga
+b | (b U (Fc R a))
+F((a & !b) | (!a & b))
+F(Gb R (Gb U c))
+F(Fb & Gc) U b
+GF!c | G(a & b)
+b | F(!c | (!a & b))
+!c | (Gc & GFb)
+F(Gb R (c | F!a))
+a | (Gb & (!b R !a))
+G(b | (Gb R Fa))
+Gb | (!b & (c U b))
+(b | GFa) U Gc
+a | (!a & b) | Gc
+a | (b R (!c & Fc))
+(a & (G!a U !c)) U c
+F(a & b) | FG!b
+Fb & ((!a | c) R a)
+G((!a & !c) | (!b & !c))
+(a | c) & (c R Fb)
+Gb | F(c & G!b)
+!b | ((Fc U a) R b)
+(a & !b) | (Ga U b)
+GFc | F(a | b)
+FGa | (Gb U a)
+F(b & !c) | FGc
+F!a | FG(!b | c)
+Gb | ((!b & !c) U c)
+(Fa | FGc) R c
+(Fc | FG!b) R b
+!c | (Gb & (c U a))
+F(c & F!c) R Fb
+Ga | (!a & FGb)
+((!a & !b) U b) R Fb
+!a | b | c | Ga
+F!a | (GFb U b)
+a | (!a & (F!a R !b))
+b R (GFa R Fb)
+F(a & (G!b | Ga))
+Ga | (b & GFa)
+G(b | c) & GFb
+F((!a & !c) | (!b & !c))
+!a | (a & (c U Gb))
+c | Fb | FG!a
+G(!b U !a) & GF!b
+b & ((c R a) R Fc)
+Fa & (!a | GFc)
+b & (!b | F(!b & !c))
+G(!b | c) & GFc
+(!a & !c) | (Fb U c)
+Gc & F(a & F!a)
+(c R b) U (c | Ga)
+b & Ga & (a U c)
+F(Fa & (b | G!a))
+a & !b & (b | Gc)
+c & (F!c | FGb)
+G(b & c) & GFa
+Fc & (c | FGa)
+F((b & c) | (a & b))
+G!c | Gc | F!b
+(c R Fb) R (a & b)

@@ -1,30 +1,54 @@
-F!a
-G!b
-G!c
-F!c
-G!a
-FGb
-FGc
-a | b
-b R c
-GFc
-GFb
-GFa
-a R c
-c R a
-a & b
-F!b
-a U c
-a | c
-b U c
 FGa
-a & c
-b | c
-c U a
-c U b
-b & c
-a R b
-a U b
-b U a
-c R b
+!a R b
+!a U b
+b R !c
+c R !a
+!c U !a
+c R a
+!b U !c
+a U c
+!b R !c
+FGb
 b R a
+!b U c
+!a U !c
+b U c
+!a U c
+c R b
+b R c
+a R c
+c R !b
+c U a
+!c U b
+b U !c
+!b R c
+!a U !b
+!c R !a
+!b U !a
+!b R !a
+!c R b
+!c U !b
+b U !a
+!a R !c
+b U a
+GFc
+a U b
+a R b
+!c U a
+FG!b
+!a R !b
+GF!a
+a R !c
+b R !a
+c U b
+c U !b
+a U !c
+!c R a
+!b U a
+GF!c
+!c R !b
+c U !a
+!b R a
+a R !b
+a U !b
+!a R c

@@ -4,16 +4,19 @@ from pyeda.inter import *
 from pyeda.boolalg.expr import Variable, OrOp, AndOp, Complement, _Zero, _One
 import spot
 
+def len_form(f):
+    return spot.length(spot.formula(f)) - f.count("!")
+
 def translate_layer(layer, metric=False):
     w_prop = layer[0]
     if metric:
         w_metric = layer[1]
         init_metric = layer[2]
-        w_qual = layer[3]
+        w_qual = np.clip(layer[3], 0, None)
         bias = layer[4]
         init_run = layer[5]
     else:
-        w_qual = layer[1]
+        w_qual = np.clip(layer[1], 0, None)
         bias = layer[2]
         init_run = layer[3]
 
@@ -84,6 +87,7 @@ def translate(layers, lits, metric=True):
                         else:
                             # since spot doesn't have a weak next op. we introduce
                             # a 'last' proposition denoting the end of the trace
+                            # UPDATE THIS: NEW VERSION OF SPOT INTRODUCES WEAK NEXT
                             group = group.replace(f"x[{i}]", f"(X ({lits[i]}) | X(last))")
                     else:
                         group = group.replace(f"x[{i}]", f"({lits[i]})")
@@ -113,9 +117,9 @@ def translate(layers, lits, metric=True):
         non_temp_formula = spot.tl_simplifier(simpopt).simplify(non_temp_formula)
 
         if init_run > 0:
-            formula = spot.formula(f"({temp_formula}) W ({non_temp_formula})")
+            formula = spot.formula.W(temp_formula, non_temp_formula)
         else:
-            formula = spot.formula(f"({temp_formula}) U ({non_temp_formula})")
+            formula = spot.formula.U(temp_formula, non_temp_formula)
 
         formula = spot.tl_simplifier(simpopt).simplify(formula)
         return formula
@@ -124,7 +128,10 @@ def translate(layers, lits, metric=True):
         forms = [compile_formula(filter, lits) for filter in layer]
         lits = forms
 
-    # remove W and M operators since the SAT methods don't use these
-    return_formula = spot.unabbreviate(forms[0], "WM")
+    # only one formula in forms since all networks should end with 1 filter
+    return_formula = forms[0]
+
+    # remove W and M operators and put in NNF to match input and SAT
+    return_formula = spot.unabbreviate(return_formula, "WM").negative_normal_form()
 
     return str(return_formula)

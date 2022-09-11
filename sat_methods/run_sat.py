@@ -53,7 +53,7 @@ def run_sat(data_file,output_file,num_formulas,trace_length,lits):
                 try:
                     res = single_formula_run_sat(positive_traces,negative_traces,trace_length,lits,n)
                 except timeout_decorator.timeout_decorator.TimeoutError:
-                    res = (formula_length,MAX_TIME,"TIMED OUT", 0.0)
+                    res = (n,MAX_TIME,"TIMED OUT", 0.0)
                 print(f"Size {n} number {count}: {res}")
                 with open(output_file,"ab+") as file:
                     pickle.dump(res,file)

@@ -19,7 +19,7 @@ saves checkpoints to train_path.
 """
 def train_models(models, data_path, train_path):
     for name, get_model in enumerate(models):
-        for n in range(1, 16):
+        for n in range(2, 16):
             count = 0
             # some formulas may be skipped so read in as many files
             # as it takes to get to num_formulas (up to 100)

@@ -1,4 +1,4 @@
-Code for the AAAI 2021 submission - DeepLTL
+Code for "Learning Finite Linear Temporal Logic Specifications with a Specialized Neural Operator": https://arxiv.org/abs/2111.04147
 --------------------------------------------
 Python 3.6+ is required along with the pip packages listed in requirements.txt
 and the Spot LTL library.
